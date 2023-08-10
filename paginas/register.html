@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__title">
+            <h2 class="header__title__h2">FORMULARIO</h2>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav__ul">
+                <li class="header__nav__ul__li"><a href="../index.html">PAG PRINCIPAL</a></li>
+                <li class="header__nav__ul__li"><a href="#">SERVICIOS</a></li>
+                <li class="header__nav__ul__li header__nav__ul__li--active1 header__nav__ul__li--active"><a href="#">JUEGOS<i class="fas fa-chevron-down"></i></a>
+                    <ul class="header__nav__ul__li--active1__ul">
+                        <li class="header__nav__ul__li--active1__ul__li"><a href="#">JUEGOS PARA PC</a></li>
+                        <li class="header__nav__ul__li--active1__ul__li"><a href="#">JUEGOS PARA PLAY Y XBOX</a></li>
+                        <li class="header__nav__ul__li--active1__ul__li"><a href="#">JUEGOS PARA MOVILES(ANDROID/IOS)</a></li>
+                    </ul>
+                </li>
+                <li class="header__nav__ul__li header__nav__ul__li--active3 header__nav__ul__li--active"><a href="#">SOPORTE Y AYUDA<i class="fas fa-chevron-down"></i></a>
+                    <ul class="header__nav__ul__li--active3__ul">
+                        <li class="header__nav__ul__li--active3__ul__li"><a href="#">CONTACTO</a></li>
+                        <li class="header__nav__ul__li--active3__ul__li"><a href="acercaDe.html">ACERCA DE</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 class="container__h1">!REGISTRATE!</h1>
+        <form class="container__form">
+            <input class="container__form__input"  type="text" placeholder="Nombres">
+            <input class="container__form__input" type="text" placeholder="Apellidos">
+            <input class="container__form__input" required="@" type="email" placeholder="Correo">
+            <input class="container__form__input" required="" type="text" placeholder="Nombre De Usuario">
+            <input class="container__form__input" required="" type="text" placeholder="Apodo">
+            <input class="container__form__input" required="" type="password" placeholder="Contraseña">
+            <input class="container__form__input" required="" type="password" placeholder="Confirmar Contraseña">
+            <button class="container__form__input container__form__input-button">ENVIAR</button>
+        </form>
+    </div>
+</body>
+</html>
